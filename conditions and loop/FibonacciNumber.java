@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class FibonacciNumber {
 
-
+    //fibonacci using recursion
     public static int fibonacciR(int n){
         if(n <= 0) return 0;
         else if (n == 1) return 1;
