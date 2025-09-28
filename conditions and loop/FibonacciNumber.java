@@ -2,6 +2,13 @@ import java.util.Scanner;
 
 public class FibonacciNumber {
 
+
+    public static int fibonacciR(int n){
+        if(n <= 0) return 0;
+        else if (n == 1) return 1;
+        return fibonacciR(n-1) + fibonacciR(n-2);
+    }
+
     public static void fibonacci(int n){
         int a = 0;
         int b = 1;
@@ -20,5 +27,7 @@ public class FibonacciNumber {
         int n = sc.nextInt();
 
         fibonacci(n);
+        System.out.println();
+        System.out.println(fibonacciR(n));
     }
 }
