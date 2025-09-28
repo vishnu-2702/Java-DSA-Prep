@@ -4,3 +4,4 @@ learning.iml
 
 # Compiled output directory
 out/
+qodana.sarif.json
