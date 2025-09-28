@@ -1,0 +1,6 @@
+# IntelliJ IDEA project files
+.idea/
+learning.iml
+
+# Compiled output directory
+out/
