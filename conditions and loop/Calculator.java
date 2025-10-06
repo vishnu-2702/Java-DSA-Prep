@@ -11,7 +11,6 @@ public class Calculator {
                 System.out.println("Enter two numbers: ");
                 int num1 = in.nextInt();
                 int num2 = in.nextInt();
-
                 if(op == '+'){
                     ans = num1+num2;
                 }
